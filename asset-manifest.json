@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/albarede/static/css/main.f7391b98.css",
+    "main.js": "/albarede/static/js/main.978ddec9.js",
+    "static/media/pexels-katrin-bolovtsova-6077326.jpg": "/albarede/static/media/pexels-katrin-bolovtsova-6077326.76ddbf0d3e2a088ade85.jpg",
+    "static/media/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.jpg": "/albarede/static/media/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.65181a1230a939b2b294.jpg",
+    "static/media/dylan-gillis-KdeqA3aTnBY-unsplash.jpg": "/albarede/static/media/dylan-gillis-KdeqA3aTnBY-unsplash.73a8252c1fb85be38d45.jpg",
+    "static/media/1699445124083.jpg": "/albarede/static/media/1699445124083.d773f0abdddbd722c0ee.jpg",
+    "static/media/لوغو شركة البريدي.png": "/albarede/static/media/لوغو شركة البريدي.33cc613c2ae25a94fa55.png",
+    "static/media/ابيض-لوغو-شركة-البريدي.webp": "/albarede/static/media/ابيض-لوغو-شركة-البريدي.f06b58d75722a39591a3.webp",
+    "index.html": "/albarede/index.html",
+    "main.f7391b98.css.map": "/albarede/static/css/main.f7391b98.css.map",
+    "main.978ddec9.js.map": "/albarede/static/js/main.978ddec9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7391b98.css",
+    "static/js/main.978ddec9.js"
+  ]
+}
