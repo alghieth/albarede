@@ -1,0 +1,31 @@
+.section-header {
+    text-align: center;
+    line-height: 0.4;
+    margin-bottom: 50px;
+}
+.section-header h3 {
+    position: relative;
+    font-weight: bold;
+}
+.section-header h3:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--color-primary);
+    bottom: 40%;
+    margin-right: 5px;
+}
+.section-header h3::before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--color-primary);
+    bottom: 40%;
+    margin-right: -53px;
+}
+.section-header p {
+    font-size: 12px;
+    color: var(--color-gray);
+}

@@ -1,0 +1,44 @@
+.primary-button {
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-wrap: nowrap;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.primary-button:hover {
+    background-color: #ab7d4c;
+}
+.secondry-button {
+    border: none;
+    background-color: var(--color-secondry);
+    color: var(--color-white);
+    text-wrap: nowrap;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.secondry-button:hover {
+    background-color: #090465;
+}
+.transparent-button {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #d0c2c2;
+    color: var(--color-white);
+    text-wrap: nowrap;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.transparent-button:hover {
+    color: #fff;
+    border-color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+    .hide-button {
+        display: none;
+    }
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

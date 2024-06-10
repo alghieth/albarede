@@ -1,0 +1,23 @@
+nav {
+    background-color: var(--color-light);
+    text-wrap: nowrap;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 540px) {
+    nav {
+        background-color: var(--color-light);
+        text-wrap: nowrap;
+        margin-top: 0px;
+    }
+}
+.navbar-collapse li {
+    margin-right: 25px;
+}
+.logo {
+    width: 60px;
+    height: 60px;  
+}
+.logo-info {
+    line-height: 0.2;
+    font-size: 14px;
+}

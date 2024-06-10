@@ -1,0 +1,8 @@
+.section-wrap {
+    padding: 50px 0;
+}
+@media only screen and (max-width: 540px) {
+    .section-wrap {
+        padding: 50px 10px;
+    }
+}

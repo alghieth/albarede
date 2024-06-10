@@ -1,0 +1,18 @@
+.serv-card {
+    text-align: center;
+    align-items: 1.3;
+    border: 1px solid var(--color-primary);
+    padding: 20px;
+}
+.no-border {
+    border: none;
+}
+.serv-card svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: var(--color-primary);
+}
+.serv-card h4 {
+    margin-bottom: 20px;
+}
