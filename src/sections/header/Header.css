@@ -8,7 +8,7 @@ nav {
         background-color: var(--color-light);
         text-wrap: nowrap;
         margin-top: 0px;
-    }
+        }
 }
 .navbar-collapse li {
     margin-right: 25px;

@@ -3,7 +3,11 @@ import logo from '../../assets/images/لوغو شركة البريدي.png'
 import { ButtonPrimary } from '../../components/index';
 
 function Header() {
-  return (
+    function menuToggle() {
+      let toggleBtn = document.querySelector('.navbar-toggler');
+      toggleBtn.click();
+    }
+    return (
     <>
     <nav className="container navbar navbar-expand-lg fixed-top rounded">
     <div className="container-fluid">
@@ -18,24 +22,21 @@ function Header() {
       <span className="navbar-toggler-icon"></span>
     </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home-page">الصفحة الرئيسية</a>
+              <a className="nav-link" aria-current="page" href="#home-page" onClick={(menuToggle)}>الصفحة الرئيسية</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about-us">عن الشركة</a>
+              <a className="nav-link" href="#about-us" onClick={(menuToggle)}>عن الشركة</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#why-us">لماذا نحن</a>
+              <a className="nav-link" href="#why-us" onClick={(menuToggle)}>لماذا نحن</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href='#our-serv'>خدماتنا</a>
+              <a className="nav-link" href='#our-serv' onClick={(menuToggle)}>خدماتنا</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href='#our-team'>فريقنا</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href='#contact-us'>اتصل بنا</a>
+              <a className="nav-link" href='#contact-us' onClick={(menuToggle)}>اتصل بنا</a>
             </li>
           </ul>
         </div>

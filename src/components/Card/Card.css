@@ -3,6 +3,7 @@
     align-items: 1.3;
     border: 1px solid var(--color-primary);
     padding: 20px;
+    position: relative;
 }
 .no-border {
     border: none;
@@ -15,4 +16,20 @@
 }
 .serv-card h4 {
     margin-bottom: 20px;
+}
+
+.alert {
+    position: absolute;
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+    width: fit-content;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.alert p {
+    margin: 0;
+    font-size: 10px;
 }

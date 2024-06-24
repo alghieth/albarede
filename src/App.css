@@ -1,7 +1,8 @@
 body {
-    font-family: "Cairo", sans-serif;
+    font-family: "Almarai", sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-size: 1rem;
 }
 :root {
     --color-primary: #c2996d;
@@ -33,36 +34,152 @@ body {
 }
 
 
-/* whatsapp */
-.whatsapp_float {
+/* contact buttons */
+.contact-item {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  visibility: hidden;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.call {
+  bottom: 155px;
+  background-color: var(--color-secondry);
+}
+.whatsapp {
+  bottom: 110px;
+  background-color: #25d366;
+}
+.facebook {
+  bottom: 200px;
+  background-color: #255cd3;
+}
+.instagram {
+  bottom: 245px;
+  background-color: #833ab4;
+  background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+}
+.whatsapp-icon,
+.call-icon,
+.facebook-icon,
+.instagram-icon {
+    font-size: 20px;
+  }
+
+.contact_float {
     position: fixed;
     width: 60px;
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #25d366;
+    background-color: var(--color-primary);
     color: #fff;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-  }
-  .whatsapp-icon {
-    margin-top: 16px;
-  }
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
 
-  /* for mobile */
-  @media screen and (max-width: 767px){
-    .whatsapp-icon {
-      margin-top: 10px;
-    }
-    .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
-    }
+.rotate-motion {
+  transform: rotate(45deg)
+}
+.show-contact {
+  right: 40px;
+  visibility: visible;
+  opacity: 1;
   }
-/* whatsapp */
+/* for mobile */
+@media screen and (max-width: 767px){
+  .contact_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+  .contact-item {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  right: 5px;
+  visibility: hidden;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.whatsapp {
+  bottom: 70px;
+  }
+.call {
+  bottom: 110px;
+}
+.facebook {
+  bottom: 150px;
+}
+.instagram {
+  bottom: 190px;
+}
+.whatsapp-icon,
+.call-icon,
+.facebook-icon {
+    font-size: 20px;
+  }
+  .show-contact {
+    right: 10px;
+    visibility: visible;
+    opacity: 1;
+    }
+}
+/*contact button */
+
+
+/* textcopyalert */
+.textCopyAlert {
+  position: absolute;
+  padding: 10px;
+  background-color: gray;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  border-radius: 20px;
+  position: fixed;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.show {
+  visibility: visible;
+}
+.textCopyAlert p {
+  margin: 0;
+}
+/* textcopyalert */
