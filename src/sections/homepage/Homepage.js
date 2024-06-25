@@ -1,14 +1,14 @@
 import './Homepage.css'
-import { BsRocketTakeoff } from "react-icons/bs";
-import { GrAnalytics } from "react-icons/gr";
-import { MdOutlineSpeakerNotes } from "react-icons/md";
+import { AiOutlineTeam, AiOutlineSafety  } from "react-icons/ai";
+import { PiHandshake } from "react-icons/pi";
 import { ButtonPrimary, SectionHeader, SectionWrap, ButtonSecoundry, ButtonTransparent, Card, CardNoBorder, Cards } from '../../components/index';
 import ServicesData from '../../assets/data/servicesData';
 import ContactUsData from '../../assets/data/ContactUsData';
 import WorksData from '../../assets/data/WorksData';
 import logo from '../../assets/images/لوغو شركة البريدي.png';
-import image_6 from '../../assets/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg';
 import image_9 from '../../assets/images/tingey-injury-law-firm-DZpc4UY8ZtY-unsplash.jpg';
+import image_1 from '../../assets/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg';
+
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -48,12 +48,12 @@ function Homepage() {
   {/* start about us */}
   <div id='about-us'></div>
     <SectionWrap>
-      <SectionHeader title='نبذة عن الشركة' disc='خبرات متراكمة لعقود من التجربة'/>
+      <SectionHeader title='نبذة عن الشركة' disc='خبرات متراكمة لسنوات من التجربة'/>
           <div className='about-info' data-aos='fade-up'>
             <div className='about-item'>
               <p>مرحباً بك في شركة البريدي </p>
               <h4 className='primary-color mb-3'>نبذة عن شركة البريدي المتميزة للمحاماة والإستشارات القانونية</h4>
-              <p> تأسست شركة البريدي للمحاماة في دمشق عام 2020 على يد الأستاذ محمد خليل البريدي, وأصبحت خلال مدة وجيزة من أهم الشركات الرائدة على مستوى سوريا والمختصة بأهم القضايا القانونية ويعود الفضل في ذلك للجهود الحثيثة من كامل فريق محامي الشركة الذي يتمتع بآداء عالي أثبت جدارته في مختلف القضايا القانونية. </p>
+              <p> تأسست شركة البريدي للمحاماة في دمشق عام 2020 على يد الأستاذ محمد خليل البريدي, وأصبحت خلال مدة وجيزة من أهم الشركات الرائدة على مستوى سوريا والمتخصصة بأهم القضايا القانونية ويعود الفضل في ذلك للجهود الحثيثة من كامل فريق محامي الشركة الذي يتمتع بآداء عالي أثبت جدارته في مختلف القضايا القانونية. </p>
               <h4 className='primary-color mb-3'>رسالتنا</h4>
               <p className='mb-5'>رضا العميل وصيانة الحقوق والسعي الدائم لكسب ثقتكم</p>
               <div className='about-button'>
@@ -66,7 +66,7 @@ function Homepage() {
               </div>
             </div>
             <div className='about-img'>
-              <img className='w-100' src={image_6} alt=''/>
+              <img className='w-100' src={image_1} alt=''/>
             </div>
           </div>
     </SectionWrap>
@@ -94,21 +94,21 @@ function Homepage() {
           <SectionHeader title='لماذا نحن ؟' disc='دقة خبرة إنجاز'/>
           <div className='disc-item'>
             <div>
-            <GrAnalytics />
+            <AiOutlineTeam />
             </div>
             <h3>يعمل لدينا فريق مختار بعناية</h3>
             <p>يتميز أعضاء مكتبنا بما عرف عنهم من النزاهة والحرص والعمل الجاد والقدرة على تقييم الأوضاع القانونية وتقديم الخدمات بفاعلية وسرعة.</p>
           </div>
           <div className='disc-item'>
             <div>
-            <BsRocketTakeoff />
+            <PiHandshake />
             </div>
             <h3>الأمانة والمصداقية</h3>
             <p>نحن في شركة البريدي المتميزة للمحاماة والاستشارات القانونية نستمد ثقتنا من تمكن الفريق القانوني من الدفاع عن حقوق العملاء واكتسابها بقوة القانون، متمسكين بالأمانة والمصداقية في التعامل.</p>
           </div>
           <div className='disc-item'>
             <div>
-            <MdOutlineSpeakerNotes />
+            <AiOutlineSafety />
             </div>
             <h3>السرية التامة</h3>
             <p>نتعهد كفريق مع كافة منسوبينا بالحفاظ على سرية البيانات والمعلومات التي نصل إليها من خلال تعاقدنا مع أي من العملاء.</p>

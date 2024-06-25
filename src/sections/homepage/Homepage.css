@@ -95,9 +95,8 @@
         margin-left: 10px;
     }
 }
-.about-img {
-    position: relative;
-}
+
+
 /* End About Us section */
 /* start why Us section */
 .why-us-section {
@@ -140,9 +139,13 @@
 .disc-item {
     position: relative;
 }
+.disc-item div svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 .disc-item p {
     color: var(--color-gray);
-    padding-left: 10px;
+    padding-left: 15px;
 }
 @media only screen and (min-width: 1100px) {
     .disc-item div {
