@@ -34,6 +34,7 @@ function Homepage() {
         <img src={logo} alt=''/>
         <h1>شركة البريدي للمحاماة</h1>
         <p>والاستشارات القانونية</p>
+        <p className='slogen'>ركز على تنمية أعمالك ودعنا نتولى أمورك القانونية</p>
         <div className='buttons'>
         <ButtonPrimary hide='' href='#footer'>
           أطلب استشارتك

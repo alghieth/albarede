@@ -40,9 +40,9 @@ function Header() {
             </li>
           </ul>
         </div>
-        <ButtonPrimary hide='hide-button' href='#footer'>
-          أطلب استشارتك
-        </ButtonPrimary>
+          <ButtonPrimary hide='hide-button' href='#footer'>
+            أطلب استشارتك
+          </ButtonPrimary>
   </div>
 </nav>
     </>

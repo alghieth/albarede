@@ -13,7 +13,7 @@ function Footer() {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_upe897v', 'template_bwlmafh', form.current, {
+          .sendForm('service_v68n0hr', 'template_bwlmafh', form.current, {
             publicKey: 'ySWKafEZSA1m3pNdM',
           })
           .then(
@@ -53,7 +53,7 @@ function Footer() {
                 </li>
                 <li>
                 <HiOutlineMail />
-                mkbtel063444@gmail.com
+                albarede.law@gmail.com
                 </li>
             </ul>
         </div>

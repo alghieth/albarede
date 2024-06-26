@@ -25,7 +25,7 @@ function App() {
       </div>
       <a  href="https://api.whatsapp.com/send/?phone=%2B963932063444&text&type=phone_number&app_absent=0"  target="_blank" rel='noreferrer' className="whatsapp contact-item  contact"><i className="fa-brands fa-whatsapp whatsapp-icon"></i></a>
       <a  href="tel:+963932063444" className='call contact-item contact'><i className="fa-solid fa-phone call-icon"></i></a>
-      <a  href="#/" className='facebook contact-item contact'><FaFacebookF className='facebook-icon' /></a>
+      <a  href="https://www.facebook.com/profile.php?id=61561354596743" target='_blanck' className='facebook contact-item contact'><FaFacebookF className='facebook-icon' /></a>
       <a  href="#/" className='instagram contact-item contact'><FaInstagram  className='instagram-icon' /></a>
       
       <button id='contact-btn' className='contact_float' onClick={(showContact)}><IoChatbubblesOutline className='contact-icon' /></button>
